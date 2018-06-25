@@ -1,0 +1,4 @@
+.DS_Store
+*.nupkg
+.nuget
+CR.CodeStyle.CSharp.Full.props
