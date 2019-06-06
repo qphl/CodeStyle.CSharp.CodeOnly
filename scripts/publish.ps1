@@ -25,4 +25,4 @@ $version = &gitversion.exe /showvariable NuGetVersionV2
 
 .\build.ps1 $version
 
-&$nuget push .\CR.CodeStyle.CSharp.Full.$version.nupkg $apikey -Source https://www.myget.org/F/cognisant-libs/api/v2/package
+&$nuget push .\CR.CodeStyle.CSharp.CodeOnly.$version.nupkg $apikey -Source https://api.nuget.org/v3/index.json
