@@ -16,5 +16,5 @@ If (-not (Test-Path $nuget)) {
 	}
 }
 
-Get-Content CR.CodeStyle.CSharp.Full.template.props | ForEach-Object{$_ -replace "#.#.#","$version"} > CR.CodeStyle.CSharp.Full.props
-&$nuget pack CR.CodeStyle.CSharp.Full.nuspec -Version $version -OutputDirectory dist
+(Get-Content CR.CodeStyle.CSharp.CodeOnly.template.props) -replace "#.#.#","$version" | Set-Content CR.CodeStyle.CSharp.CodeOnly.props
+&$nuget pack CR.CodeStyle.CSharp.CodeOnly.nuspec -Version $version -OutputDirectory dist
