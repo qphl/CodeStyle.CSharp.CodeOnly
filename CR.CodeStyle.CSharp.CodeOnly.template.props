@@ -13,6 +13,6 @@
       <CodeAnalysisRuleSet>$(CodeAnalysisRuleSetLocation)\CR.CodeStyle.CSharp.CodeOnly.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <AdditionalFiles Include="$(CodeAnalysisRuleSetLocation)\stylecop.json" Link="stylecop.json" />
+    <AdditionalFiles Include="$(CodeAnalysisRuleSetLocation)\stylecop.json" />
   </ItemGroup>
 </Project>
