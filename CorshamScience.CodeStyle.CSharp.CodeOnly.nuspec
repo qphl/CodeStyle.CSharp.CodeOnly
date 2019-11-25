@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>CorshamScience.CodeStyle.CSharp.CodeOnly</id>
+    <version>0.0.0</version>
+    <authors>Corsham Science</authors>
+    <owners>Corsham Science</owners>
+    <licenseUrl>https://github.com/qphl/CodeStyle.CSharp.CodeOnly/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/qphl/CodeStyle.CSharp.CodeOnly/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/qphl/CodeStyle.CSharp.CodeOnly/master/logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The custom ruleset file for Style Cop used at Corsham Science (excluding documentation fixes).</description>
+    <releaseNotes>Updated company name & updated StyleCop.Analyzers to 1.1.118.</releaseNotes>
+    <copyright>Corsham Science 2019</copyright>
+    <tags>Corsham Science corshamscience QPHL Stylecop style cop stylecop code codestyle codestyles styles</tags>
+    <dependencies>
+      <dependency id="StyleCop.Analyzers" version="[1.1.118]" />
+    </dependencies>
+    <developmentDependency>true</developmentDependency>
+  </metadata>
+  <files>
+    <file src="CorshamScience.CodeStyle.CSharp.CodeOnly.ruleset" target="" />
+    <file src="stylecop.json" target="" />
+    <file src="CorshamScience.CodeStyle.CSharp.CodeOnly.props" target="build" />
+  </files>
+</package>
