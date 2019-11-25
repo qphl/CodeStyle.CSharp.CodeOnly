@@ -16,5 +16,5 @@ If (-not (Test-Path $nuget)) {
 	}
 }
 
-(Get-Content CR.CodeStyle.CSharp.CodeOnly.template.props) -replace "#.#.#","$version" | Set-Content CR.CodeStyle.CSharp.CodeOnly.props
-&$nuget pack CR.CodeStyle.CSharp.CodeOnly.nuspec -Version $version -OutputDirectory dist
+(Get-Content CorshamScience.CodeStyle.CSharp.CodeOnly.template.props) -replace "#.#.#","$version" | Set-Content CorshamScience.CodeStyle.CSharp.CodeOnly.props
+&$nuget pack CorshamScience.CodeStyle.CSharp.CodeOnly.nuspec -Version $version -OutputDirectory dist

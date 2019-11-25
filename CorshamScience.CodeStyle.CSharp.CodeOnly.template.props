@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <PackageName>CR.CodeStyle.CSharp.CodeOnly</PackageName>
+    <PackageName>CorshamScience.CodeStyle.CSharp.CodeOnly</PackageName>
     <PackageVersion>#.#.#</PackageVersion>
   </PropertyGroup>
   <PropertyGroup>
@@ -10,7 +10,7 @@
     <CodeAnalysisRuleSetLocation Condition=" '$(CodeAnalysisRuleSetLocation)' == '' ">$([System.IO.Path]::GetDirectoryName($(MSBuildProjectDirectory)))\packages\$(PackageName).#.#.#</CodeAnalysisRuleSetLocation>
   </PropertyGroup>
   <PropertyGroup>
-      <CodeAnalysisRuleSet>$(CodeAnalysisRuleSetLocation)\CR.CodeStyle.CSharp.CodeOnly.ruleset</CodeAnalysisRuleSet>
+      <CodeAnalysisRuleSet>$(CodeAnalysisRuleSetLocation)\CorshamScience.CodeStyle.CSharp.CodeOnly.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
     <AdditionalFiles Include="$(CodeAnalysisRuleSetLocation)\stylecop.json" />
