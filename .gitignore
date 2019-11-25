@@ -1,4 +1,4 @@
 .DS_Store
 *.nupkg
 .nuget
-CR.CodeStyle.CSharp.CodeOnly.props
+CorshamScience.CodeStyle.CSharp.CodeOnly.props

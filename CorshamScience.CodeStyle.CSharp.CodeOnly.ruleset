@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<RuleSet Name="CR.CodeStyle.CSharp.CodeOnly" Description="The custom ruleset file for C# used at Cognisant (without documentation rules.)" ToolsVersion="15.0">
+<RuleSet Name="CorshamScience.CodeStyle.CSharp.CodeOnly" Description="The custom ruleset file for C# used at Corsham Science (without documentation rules.)" ToolsVersion="15.1">
   <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
     <Rule Id="CA1001" Action="Warning" />
     <Rule Id="CA1009" Action="Warning" />

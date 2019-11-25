@@ -25,4 +25,4 @@ $version = &gitversion.exe /showvariable NuGetVersionV2
 
 .\build.ps1 $version
 
-&$nuget push .\CR.CodeStyle.CSharp.CodeOnly.$version.nupkg $apikey -Source https://api.nuget.org/v3/index.json
+&$nuget push .\CorshamScience.CodeStyle.CSharp.CodeOnly.$version.nupkg $apikey -Source https://api.nuget.org/v3/index.json
