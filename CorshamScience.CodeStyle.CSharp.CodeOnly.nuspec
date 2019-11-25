@@ -10,7 +10,7 @@
     <iconUrl>https://raw.githubusercontent.com/qphl/CodeStyle.CSharp.CodeOnly/master/logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>The custom ruleset file for Style Cop used at Corsham Science (excluding documentation fixes).</description>
-    <releaseNotes>Updated company name & updated StyleCop.Analyzers to 1.1.118.</releaseNotes>
+    <releaseNotes>Updated company name &amp; updated StyleCop.Analyzers to 1.1.118.</releaseNotes>
     <copyright>Corsham Science 2019</copyright>
     <tags>Corsham Science corshamscience QPHL Stylecop style cop stylecop code codestyle codestyles styles</tags>
     <dependencies>
