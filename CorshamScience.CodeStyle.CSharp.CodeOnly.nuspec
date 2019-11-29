@@ -7,7 +7,7 @@
     <owners>Corsham Science</owners>
     <licenseUrl>https://github.com/qphl/CodeStyle.CSharp.CodeOnly/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/qphl/CodeStyle.CSharp.CodeOnly/</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/qphl/CodeStyle.CSharp.CodeOnly/master/logo.png</iconUrl>
+    <icon>images\logo.png</icon>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>The custom ruleset file for Style Cop used at Corsham Science (excluding documentation fixes).</description>
     <releaseNotes>Version based on StyleCop.Analyzers 1.1.118.</releaseNotes>
@@ -22,5 +22,6 @@
     <file src="CorshamScience.CodeStyle.CSharp.CodeOnly.ruleset" target="" />
     <file src="stylecop.json" target="" />
     <file src="CorshamScience.CodeStyle.CSharp.CodeOnly.props" target="build" />
+    <file src="logo.png" target="images\" />
   </files>
 </package>
