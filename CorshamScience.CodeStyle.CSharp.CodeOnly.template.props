@@ -2,7 +2,6 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <PackageName>CorshamScience.CodeStyle.CSharp.CodeOnly</PackageName>
-    <PackageIcon>logo.png</PackageIcon>
     <PackageVersion>#.#.#</PackageVersion>
   </PropertyGroup>
   <PropertyGroup>
@@ -15,6 +14,5 @@
   </PropertyGroup>
   <ItemGroup>
     <AdditionalFiles Include="$(CodeAnalysisRuleSetLocation)\stylecop.json" />
-    <None Include="images\logo.png" Pack="true" PackagePath="\"/>
   </ItemGroup>
 </Project>
